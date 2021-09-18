@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@400;500&family=Source+Sans+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #fff8fc;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table-container,
+thead,
+th,
+tr,
+td {
+    margin: 0 auto;
+}
+
+.table-container,
+th,
+td {
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+.table-container caption {
+    text-align: left;
+    font-size: 25px;
+}
+
+.specialTD {
+    border-bottom: 1px solid black;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.VisibleTD {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.VisibleTD th {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+tbody tr {
+    /* z-index: 1; */
+    border-bottom: 1px solid #e6e6e6;
+}
+
+tbody tr:hover {
+    background-color: white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.Avatar img {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+tr td {
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+td {
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+}
+
+.Percent {
+    position: relative;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.Percent span {
+    position: absolute;
+}
+
+td img {
+    height: 20px;
+    width: 25px;
+    display: inline;
+    padding-right: 5px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 2em;
+    left: .6em;
+    transform: translate(-60%, 10%);
+}
+
+
+/*  padding: 25px 50px 75px 100px; 
+    top padding is 25px
+    right padding is 50px
+    bottom padding is 75px
+    left padding is 100px
+*/
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.menu:hover .dropdown-content {
+    display: block;
+    background-color: white;
+    z-index: 2;
+    text-align: left;
+    margin-top: 1em;
+}
+
+.dropdown-content>a:hover {
+    background-color: #e6e6e6;
+}
